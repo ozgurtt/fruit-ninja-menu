@@ -1,0 +1,60 @@
+#menu-button {
+    background: #FE802B url(../custom-img/softgames.jpg) no-repeat center;
+    background-size: 50px 50px;
+    background-position: 22px 25px;
+    position: absolute;
+    top: -1.5em;
+    left: -1.5em;
+    width: 5em;
+    height: 5em;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    border-radius: 2.5em;
+    z-index: 2;
+}
+
+#menu {
+    background-color: #4169e1;
+    position: absolute;
+    width: inherit;
+    z-index: 1;
+    display: none;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#c2canvasdiv {
+    position: relative;
+    overflow: hidden;
+}
+
+/** star rating styles **/
+.rateit {
+    left: 80px;
+}
+
+.bigstars .rateit-range {
+    background: url(../custom-img/star-white32.png);
+    height: 32px;
+}
+
+.bigstars .rateit-hover {
+    background: url(../custom-img/star-gold32.png);
+}
+
+.bigstars .rateit-selected {
+    background: url(../custom-img/star-red32.png);
+}
+
+.bigstars button.rateit-reset {
+    display: none !important;
+    background: url(../custom-img/delete32.png);
+    width: 32px;
+    height: 32px;
+}
+
+.bigstars button.rateit-reset:hover {
+    background: url(../custom-img/delete32.png);
+}
