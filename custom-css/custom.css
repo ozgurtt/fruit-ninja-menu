@@ -14,7 +14,7 @@
 }
 
 #menu {
-    background-color: #4169e1;
+    background-color: #202B34;
     position: absolute;
     width: inherit;
     z-index: 1;
@@ -23,6 +23,23 @@
 
 #social-icons {
     text-align: right;
+}
+
+#social-icons img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+#social-icons p {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#social-icons p a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 #c2canvasdiv {

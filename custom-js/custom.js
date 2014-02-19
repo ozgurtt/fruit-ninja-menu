@@ -5,7 +5,7 @@ $(function() {
   link.on('click touchstart', function( e ) {
     e.preventDefault();
     var that = $(this);
-    window.location.href = that.attr('href');
+    window.open(that.attr('href'), '_blank');
     alert('clicked on ' + that.attr('name'));
   });
 
@@ -16,6 +16,12 @@ $(function() {
   menuButton.on('click touchstart', function( e ) {
     e.preventDefault();
     menu.slideToggle(toogleSpeed);
+  });
+
+  var stars = $('#stars');
+
+  stars.on('rated', function( e, value ) {
+    alert('You\'ve rated it: ' + value);
   });
 
   //http://twitter.com/share?text=text goes here&url=http://url goes here&hashtags=hashtag1,hashtag2,hashtag3
